@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+    display:flex;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display:flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    margin: 30px;
+    text-align:center;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    transition: 0.75s;
+}
+
+footer {
+    background-color: pink;
+    padding: 25px;
+    display:flex;
+}
+
+footer a {
+    margin-right: 25px;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+.nav-link:hover{
+    background-color:bisque;
+    color:black;
+    border-bottom:2px solid purple;
+}
+
+.article-but:hover{
+    background-color: brown;
+    border-radius:10px;
+}
